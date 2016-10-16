@@ -3,3 +3,5 @@ This is a small coding challenge for NoughtsCrosses game where the game results 
 $ php tictactoe.php calculate
 
 $ php tictactoe.php results
+
+This code snippet is a good example of Singleton pattern class instance. As per code, if the DBConnect :: getInstance method is called for more than one time, it will always return the reference that is created at first attempt. The code does not create a new reference by getInstance method. Also, the Object is class cannot be created because the constructor is declared as private.
