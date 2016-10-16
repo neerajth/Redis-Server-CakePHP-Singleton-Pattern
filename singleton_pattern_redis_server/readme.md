@@ -6,7 +6,7 @@ The purpose is to save time and improve the performance of page load.
 
 Technologies used:
 
-redis server 3.2
-mysql 5
+redis server 3.2,
+mysql 5,
 cakephp 1.3
 
