@@ -6,7 +6,7 @@ $ php tictactoe.php results
 
 This code snippet is a good example of Singleton pattern class instance. As per code, if the DBConnect :: getInstance method is called for more than one time, it will always return the reference that is created at first attempt. The code does not create a new reference by getInstance method. Also, the Object is class cannot be created because the constructor is declared as private.
 
-
+Technologies used:
 OOP PHP 5 (singleton pattern db instance),
 PHP STDIN console based input and output argv,
 MySQL 5
